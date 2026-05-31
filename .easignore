@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+
+# Other apps in the monorepo
+../../apps/PostalPeek/
+../../apps/baraja/
+../../apps/flowtranslate/
+../../apps/guita-control/
+../../apps/minimal-money/
+../../apps/portfolio/
+../../apps/potlink-mobile/
+../../apps/promptly/
+../../apps/promptly-site/
+../../apps/shrinkle/
+../../apps/tablia/
+../../apps/tellee/
+../../apps/zigzag/
+
+# Infra & Docker
+../../eb-infra/
+
+# Dev/test artifacts
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+__tests__/
+coverage/
+
+# Build outputs
+android/
+ios/build/
+dist/
+.expo/
+
+# Large media
+**/*.mp4
+**/*.mov
+**/*.avi
+
+# Docs & agent context
+../../.agents/
+../../.codex/
+../../docs/
+../../test-*.js
+
+# Misc
+.DS_Store
+*.log
