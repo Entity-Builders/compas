@@ -1,4 +1,4 @@
-const { createAppConfig } = require('@eb-packages/expo-config');
+const { createAppConfig } = require('@entity-builders/expo-config');
 
 module.exports = createAppConfig({
   name: 'compas',

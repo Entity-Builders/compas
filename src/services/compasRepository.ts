@@ -4,8 +4,8 @@ import {
   type ActivationHistoryEntry,
   type CompasTask,
   type HistoryStatus,
-} from '@eb-packages/compas-core';
-import { supabase } from '@eb-packages/logic';
+} from '@entity-builders/compas-core';
+import { supabase } from '@entity-builders/logic';
 
 type TaskRow = {
   id: string;

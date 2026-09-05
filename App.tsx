@@ -14,7 +14,7 @@ import {
   Suggester,
   type CompasTask,
   type HistoryStatus,
-} from '@eb-packages/compas-core';
+} from '@entity-builders/compas-core';
 import {
   createAcceptedSlot,
   loadCompasHistory,
