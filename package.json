@@ -13,8 +13,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@entity-builders/compas-core": "*",
-    "@entity-builders/logic": "*",
+    "@entity-builders/compas-core": "^0.1.0",
+    "@entity-builders/logic": "^1.0.0",
     "@react-native-async-storage/async-storage": "2.2.0",
     "expo": "~54.0.33",
     "expo-constants": "~18.0.11",
@@ -31,5 +31,10 @@
   "engines": {
     "node": ">=20.19.4"
   },
-  "private": true
+  "private": true,
+  "packageManager": "yarn@4.13.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Entity-Builders/compas.git"
+  }
 }
